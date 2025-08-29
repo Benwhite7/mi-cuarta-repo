@@ -22,6 +22,13 @@ def get_cursos():
     rows = ["Docker", "Bash", "Flash", "Linux", "Ingles", "Python", "JS"]
     return rows 
 
+
+@app.get("/cursosPlatzi")
+def get_cursos():
+    rows = ["Docker", "Bash", "Flash", "Linux", "Ingles", "Python", "JS"]
+    return rows 
+
+
 @app.get("/cursosBen")
 def get_cursos_Ben():
     rows = ["Docker", "Bash", "Flash", "Linux", "Ingles", "Python", "JS"]
