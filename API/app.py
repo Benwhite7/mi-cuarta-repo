@@ -23,10 +23,17 @@ def get_superheroesMarvel():
     return rows 
 
 
+@app.get("/superheroesMarvel")
+def get_superheroesMarvel():
+    rows = ["SpiderMan", "Iron-Man", "Hulk"]
+    return rows 
+
+
 @app.get("/cursosPlatzi")
 def get_cursos():
     rows = ["Docker", "Bash", "Flash", "Linux", "Ingles", "Python", "JS"]
     return rows 
+
 
 @app.get("/cursosBen")
 def get_cursos_Ben():
